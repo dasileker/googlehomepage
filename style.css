@@ -1,0 +1,167 @@
+#bluebox {
+    background: #4285f4;
+    color: #fff ;
+    border-radius: 5%;
+    font-weight: bold;
+    text-decoration: none ;
+    margin-left: 10px;
+}
+
+#apps-icon {
+    width: 20px;
+    height: 20px;
+    background: url(sprites.png) 70px 34px;
+    filter:  brightness(50%) ;
+}
+
+#apps-icon:hover {
+    filter:  brightness(10%) ;
+}
+
+#language-option {
+    font-size: bold;
+    color: #222222;
+}
+#language-option a {
+    color: blue;
+    text-decoration: none;
+}
+
+#language-option a:hover {
+    text-decoration-line: underline;
+}
+
+#lense {
+    width: 20px;
+    height: 20px;
+    background: url(https://www.google.com/images/searchbox/desktop_searchbox_sprites302_hr.webp) 0 0;
+    background-size: 100% auto;
+}
+
+html {
+    height: 100%;
+}
+body {
+    height: 100%;
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 100px 0 0 0;
+    min-width: 900px;
+
+}
+
+.button {
+    border: none;
+    border-radius: 5%;
+    height: 40px;
+    color: rgb(0,0,0,.54);
+    background-color: #f2f2f2;
+    padding: 0 16px;
+    margin: 0 5px;
+    font-size: 14px;
+}
+
+.button:hover {
+    border: 1px solid rgb(0,0,0,.1);
+    color: #222222;
+}
+
+.button-container {
+    margin: 30px;
+}
+
+.searchbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    display: flex;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    height: 44px;
+    width: 584px;
+    margin-top: 15px ;
+
+}
+
+.nav {
+    overflow: hidden;
+    min-width: 900px;
+    margin: 20px 17px 0 17px;
+    line-height: 20px;
+}
+
+.nav a {
+    float: left;
+    text-decoration: none;
+    color: #000;
+    font-size: 15px;
+    text-align: center;
+    padding: 5px 10px 5px 10px;
+    
+}
+
+.nav a:hover {
+    text-decoration-line: underline; 
+    color: #333;
+}
+
+.nav-right {
+    float: right;
+ }
+ 
+ .nav-bottom {
+     line-height: 40px;
+     overflow: hidden;
+     min-width: 900px;
+     background-color: #f2f2f2;
+     width: 100vw;
+     padding-right: 27px;
+}
+
+.nav-bottom a {
+    float: left;
+    text-decoration: none;
+    text-align: center;
+    font-size: 12px;
+    padding-left: 27px;
+    color: rgb(0,0,0,.70);
+}
+
+.nav-bottom a:hover {
+    text-decoration-line: underline; 
+    color: #333;
+    
+}
+
+.nav-right {
+    float: right;
+    margin-right: 30px;
+ }
+
+ .bottom {
+     font-size: 15px;
+     line-height: 40px;
+     background-color: #f2f2f2;
+     border-top: .5px solid rgb(0,0,0,.10);
+     border-bottom: .5px solid rgb(0,0,0,.10);
+     color: rgb(0,0,0,.60);
+     padding-left: 27px;
+     width: 100%;
+    
+ }
+
+ footer {
+     position: fixed;
+     bottom: 0;
+     width: 100%
+ }
