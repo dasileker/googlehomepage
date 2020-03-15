@@ -245,7 +245,7 @@ footer ul a:hover {
     </header>
 
     <div class="google">
-        <a herf="#" id="google_logo"><img src="google_logo.png"></a>
+        <a herf="#" id="Google.png"><img src="Google.png"></a>
     </div>
 
     <div class="form">
